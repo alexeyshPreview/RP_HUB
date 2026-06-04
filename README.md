@@ -35,8 +35,12 @@ RP_HUB - это пользовательское приложение. Пред�
 <img width="362" height="341" alt="0F58E019-2946-4E1D-9A0D-25F9E3042164_4_5005_c" src="https://github.com/user-attachments/assets/f2a47f33-3cab-41e6-b82a-ed285ab991ac" />
 
 
-# Сам чат
+# Чат
 
 <img width="1281" height="1411" alt="D0357873-8AA6-4DA7-83FB-35A7E21C3533" src="https://github.com/user-attachments/assets/b5c76986-160c-43cb-bb01-4afe70df8243" />
 <img width="1280" height="1410" alt="8770C46D-25E8-4F2E-8B5E-96C6628CD9CA" src="https://github.com/user-attachments/assets/70f34b40-05cf-4815-b317-6c1e56ea6587" />
+
+# Админка Keycloak
+
+<img width="1280" height="1411" alt="2E73D841-7504-4C89-A4C5-7E44C90DD3D2" src="https://github.com/user-attachments/assets/6c5c6e85-af80-4faa-896d-c548d3f48f6c" />
 
