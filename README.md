@@ -309,7 +309,7 @@
 
 
 
-  ## 🔍 Discovery Service (Scraper & Reconnaissance API)
+## 🔍 Discovery Service (Scraper & Reconnaissance API)
 
 сервис отвечает за сбор данных, обход блокировок анти-бот систем и парсинг актуального онлайна игровых серверов в реальном времени для различных roleplay-проектов.
 
