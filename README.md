@@ -328,9 +328,7 @@
 * **успешный ответ (`200 OK`):**
   ```json
   {
-    "project": "gta5rp",
-    "totalOnline": 14250,
-    "timestamp": "2026-06-04T15:38:15Z"
+    14250
   }
   ```
 
@@ -343,9 +341,7 @@
 * **успешный ответ (`200 OK`):**
   ```json
   {
-    "project": "samp",
-    "totalOnline": 4120,
-    "timestamp": "2026-06-04T15:39:03Z"
+    4120
   }
   ```
 
@@ -358,9 +354,7 @@
 * **успешный ответ (`200 OK`):**
   ```json
   {
-    "project": "arizona",
-    "totalOnline": 23800,
-    "timestamp": "2026-06-04T15:39:20Z"
+    23800
   }
   ```
 
@@ -373,9 +367,7 @@
 * **успешный ответ (`200 OK`):**
 ```json
   {
-    "project": "radmirRP",
-    "totalOnline": 8950,
-    "timestamp": "2026-06-04T15:39:20Z"
+    8950
   }
 ```
 
@@ -388,9 +380,7 @@
 * **успешный ответ (`200 OK`):**
   ```json
   {
-    "project": "amazingOnline",
-    "totalOnline": 3150,
-    "timestamp": "2026-06-04T15:39:20Z"
+    3150
   }
   ```
 
