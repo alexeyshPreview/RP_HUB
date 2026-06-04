@@ -43,6 +43,10 @@
 <img width="1281" height="1411" alt="D0357873-8AA6-4DA7-83FB-35A7E21C3533" src="https://github.com/user-attachments/assets/b5c76986-160c-43cb-bb01-4afe70df8243" />
 <img width="1280" height="1410" alt="8770C46D-25E8-4F2E-8B5E-96C6628CD9CA" src="https://github.com/user-attachments/assets/70f34b40-05cf-4815-b317-6c1e56ea6587" />
 
+## Настройки
+
+<img width="1280" height="1411" alt="00014C2D-E718-489B-91D2-967BC9B45667" src="https://github.com/user-attachments/assets/e23c2240-ccdb-4592-9a7d-222b63ad0db4" />
+
 ## Админка Keycloak
 
 <img width="1280" height="1411" alt="2E73D841-7504-4C89-A4C5-7E44C90DD3D2" src="https://github.com/user-attachments/assets/6c5c6e85-af80-4faa-896d-c548d3f48f6c" />
