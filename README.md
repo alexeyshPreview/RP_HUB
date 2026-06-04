@@ -6,6 +6,7 @@ RP_HUB - это пользовательское приложение. Пред�
 - просмотр свежих новостей любимых рп проектов
 - мониторинг, статистики онлайна серверов
 
-![Uploading image.png…]()
+
+<img width="1282" height="346" alt="ED5337F2-0D0F-4AE1-BC94-09D62EFDF9FF_4_5005_c" src="https://github.com/user-attachments/assets/ac22f6e3-a185-460e-b97f-e46eea060051" />
 
   
