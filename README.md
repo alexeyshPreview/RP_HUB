@@ -123,7 +123,7 @@ RP_HUB - это пользовательское приложение. Пред�
 
 
 
-## AccountService (user management api)
+## 👤 AccountService (user management api)
 Сервис отвечает за управление профилем пользователя, обновление личных данных, сброс паролей и завершение активных сессий (logout). 
 
 **Базовый URL:** `/account`
