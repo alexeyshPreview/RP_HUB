@@ -686,3 +686,76 @@
 ```
 
 
+### 📋 Класс: `MessageController`
+**базовый url:** `/messages`
+
+---
+
+### 🚀 Эндпоинты API
+
+#### 1. Отправка сообщения (Send Message)
+публикует новое сообщение в чат, сохраняет его в бд и транслирует событие в real-time каналы centrifugo для обновления интерфейса (окна чата и левой панели) у всех участников.
+
+* **метод:** `POST`
+* **путь:** `/send`
+* **полный путь:** `/messages/send`
+* **заголовки:**
+  * `X-User-Id: <UUID>`
+* **тело запроса (body):** `SendMessageRequest`
+  ```json
+  {
+    "chatId": "456e4567-e89b-12d3-a456-426614174111",
+    "type": "TEXT",
+    "content": "привет, заходи в игру",
+    "fileName": null,
+    "fileSize": null
+  }
+  ```
+  ```json
+  {
+    "action": "CREATE",
+    "data": {
+      "messageId": "987e4567-e89b-12d3-a456-426614174999",
+      "senderId": "123e4567-e89b-12d3-a456-426614174000",
+      "senderName": "ivan_pavel",
+      "content": "привет, заходи в игру",
+      "type": "TEXT",
+      "fileName": null,
+      "fileSize": null,
+      "timestamp": "2026-06-04T16:10:00Z"
+    }
+  }
+  ```
+
+#### 2. Удаление сообщения только для себя (Delete Message For Me)
+скрывает выбранное сообщение из истории чата исключительно для текущего авторизованного пользователя.
+
+* **метод:** `POST`
+* **путь:** `/delete/for/me`
+* **полный путь:** `/messages/delete/for/me`
+* **заголовки:**
+  * `X-User-Id: <UUID>`
+* **тело запроса (body):** `DeleteMsgRequest`
+  ```json
+  {
+    "chatId": "456e4567-e89b-12d3-a456-426614174111",
+    "messageId": "987e4567-e89b-12d3-a456-426614174999"
+  }
+  ```
+
+#### 3. Удаление сообщения для всех участников (Delete Message For Everyone)
+полностью удаляет сообщение из истории чата для всех его участников.
+
+* **метод:** `POST`
+* **путь:** `/delete/for/everyone`
+* **полный путь:** `/messages/delete/for/everyone`
+* **заголовки:**
+  * `X-User-Id: <UUID>`
+* **тело запроса (body):** `DeleteMsgRequest`
+  ```json
+  {
+    "chatId": "456e4567-e89b-12d3-a456-426614174111",
+    "messageId": "987e4567-e89b-12d3-a456-426614174999"
+  }
+  ```
+
