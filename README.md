@@ -7,40 +7,41 @@ RP_HUB - это пользовательское приложение. Пред�
 - просмотр свежих новостей любимых рп проектов
 - мониторинг, статистики онлайна серверов
 
-# Главный экран
+## Главный экран
 <img width="1282" height="346" alt="ED5337F2-0D0F-4AE1-BC94-09D62EFDF9FF_4_5005_c" src="https://github.com/user-attachments/assets/ac22f6e3-a185-460e-b97f-e46eea060051" />
 <img width="1272" height="460" alt="32E36D36-FC59-41C3-9B69-28AC5FB2EC10" src="https://github.com/user-attachments/assets/02369e68-ae96-4b58-bb35-03659f298d4c" />
 <img width="1268" height="324" alt="951BF189-8F7E-4BE7-8F4A-E1DB8D5A1908_4_5005_c" src="https://github.com/user-attachments/assets/7b649197-857f-4d32-b9eb-fa6bfd40ea4a" />
 
-# Окна авторизации
+## Окна авторизации
 <img width="473" height="670" alt="8F0D1985-22ED-4658-A54A-B2800F5C67D5" src="https://github.com/user-attachments/assets/8b73745d-0447-4937-9219-0a2c40c62e6f" />
 <img width="463" height="567" alt="28CFE91D-5D8B-41D2-9314-CFF71EB8146C" src="https://github.com/user-attachments/assets/bf9aa353-4430-485a-994f-4e03f1c42b28" />
 
-# Удалить аккаунт
+## Удалить аккаунт
 <img width="753" height="631" alt="D62B83CF-7EEE-4A99-8606-DA96B0048B26" src="https://github.com/user-attachments/assets/b64c83ac-c7f9-41ae-b40f-fc5e90462e73" />
 <img width="993" height="581" alt="9CD21C11-4392-4A00-893F-B1FCD853F940" src="https://github.com/user-attachments/assets/5deaa049-d13c-440f-8044-3e2b11c8ebc2" />
 <img width="663" height="571" alt="8F5041A6-F6F4-44BB-B1E3-5541CC9E5E0E" src="https://github.com/user-attachments/assets/41230aaf-423c-452a-8412-7d48a8b74398" />
 
 
-# Личный кабинет
+## Личный кабинет
 <img width="1280" height="297" alt="BD38D601-EADF-4667-8F9B-B2FBA32A9725_4_5005_c" src="https://github.com/user-attachments/assets/39694fef-4a1b-441f-be4f-366257c0f5c0" />
 <img width="1281" height="1411" alt="03EE7F7E-F5DD-4A82-91E6-09F28E415235" src="https://github.com/user-attachments/assets/eeb135d6-c190-4136-88e6-915fa41fac1c" />
 
-# Подтвердить почту
+## Подтвердить почту
 
 <img width="589" height="386" alt="A2B739D9-9A9C-421C-8DEB-EA035C14FC79" src="https://github.com/user-attachments/assets/9121ab37-97de-44c3-8288-80d696a6e54b" />
 
 
-# Найти контакт
+## Найти контакт
 <img width="362" height="341" alt="0F58E019-2946-4E1D-9A0D-25F9E3042164_4_5005_c" src="https://github.com/user-attachments/assets/f2a47f33-3cab-41e6-b82a-ed285ab991ac" />
 
 
-# Чат
+## Чат
 
 <img width="1281" height="1411" alt="D0357873-8AA6-4DA7-83FB-35A7E21C3533" src="https://github.com/user-attachments/assets/b5c76986-160c-43cb-bb01-4afe70df8243" />
 <img width="1280" height="1410" alt="8770C46D-25E8-4F2E-8B5E-96C6628CD9CA" src="https://github.com/user-attachments/assets/70f34b40-05cf-4815-b317-6c1e56ea6587" />
 
-# Админка Keycloak
+## Админка Keycloak
 
 <img width="1280" height="1411" alt="2E73D841-7504-4C89-A4C5-7E44C90DD3D2" src="https://github.com/user-attachments/assets/6c5c6e85-af80-4faa-896d-c548d3f48f6c" />
+
 
