@@ -51,7 +51,24 @@
 
 <img width="1280" height="1411" alt="2E73D841-7504-4C89-A4C5-7E44C90DD3D2" src="https://github.com/user-attachments/assets/6c5c6e85-af80-4faa-896d-c548d3f48f6c" />
 
-# Теперь об Backend стороне
+## 🛠 технологический стек
+
+### backend (микросервисы)
+* **core:** Java 21, Spring Boot 3.x
+* **web & security:** Spring Web, Spring Security, Keycloak (интеграция oauth2 / openid connect)
+* **real-time & мессенджинг:** Centrifugo (события через веб-сокеты), Apache Kafka (асинхронное взаимодействие микросервисов)
+* **data & caching:** Spring Data JPA, Hibernate, PostgreSQL (основная бд), Redis (кэширование, сессии, хранение статусов)
+* **сборка и логирование:** Gradle / Maven, Lombok, Slf4j + Logback
+
+### frontend
+* **core:** React
+* **state & network:** Axios / Fetch API, Centrifugo JS Client (для подписок на веб-сокеты в реальном времени)
+* **styles:** HTML5, CSS3 / Tailwind CSS (или то, что используется для разметки)
+
+### devops & инфраструктура
+* **контейнеризация:** Docker, Docker Compose (локальное окружение и оркестрация сервисов)
+* **архитектура:** Microservices Architecture, API Gateway (шлюз для маршрутизации запросов)
+
 
 ## Список всех микросервисов:
 Проект построен на базе микросервисной архитектуры. Ниже представлен список всех сервисов и их краткое назначение:
