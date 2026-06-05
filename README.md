@@ -63,7 +63,7 @@
 ### frontend
 * **core:** React
 * **state & network:** Axios / Fetch API, Centrifugo JS Client (для подписок на веб-сокеты в реальном времени)
-* **styles:** HTML5, CSS3 / Tailwind CSS (или то, что используется для разметки)
+* **styles:** HTML5, CSS3 / Tailwind CSS
 
 ### devops & инфраструктура
 * **контейнеризация:** Docker, Docker Compose (локальное окружение и оркестрация сервисов)
