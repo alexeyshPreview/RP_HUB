@@ -203,7 +203,7 @@
       "lastSender": "ivan_pavel",
       "lastMessage": "собираемся на дроп через 10 минут",
       "unreadCount": 3,
-      "isOnline": true,
+      "isOnline": false,
       "isMuted": false
     }
   ]
