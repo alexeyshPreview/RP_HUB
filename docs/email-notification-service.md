@@ -13,6 +13,7 @@
 
 * **метод:** `GET`
 * **путь:** `/confirm`
+* **полный путь:** `http://localhost:8765/email/confirm`
 * **параметры запроса (query params):**
   * `token` — уникальный строковый токен верификации из ссылки.
 * **эффект:** активирует статус подтвержденной почты и возвращает статус `302 Found` для перенаправления браузера.
@@ -25,6 +26,7 @@
 
 * **метод:** `GET`
 * **путь:** `/delete/confirm`
+* **полный путь:** `http://localhost:8765/email/delete/confirm`
 * **заголовки:**
   * `X-User-Id: <UUID>` (подставляется автоматически api gateway)
 * **параметры запроса (query params):**
@@ -44,6 +46,7 @@
 
 * **метод:** `POST`
 * **путь:** `/send-for-verify`
+* **полный путь:** `http://localhost:8765/email/send-for-verify`
 * **заголовки:**
   * `X-User-Id: <UUID>` (подставляется автоматически api gateway)
 * **параметры запроса (query params):**
@@ -63,6 +66,7 @@
 
 * **метод:** `POST`
 * **путь:** `/send-for-delete-account`
+* **полный путь:** `http://localhost:8765/email/send-for-delete-account`
 * **заголовки:**
   * `X-User-Id: <UUID>` (подставляется автоматически api gateway)
 * **параметры запроса (query params):**
