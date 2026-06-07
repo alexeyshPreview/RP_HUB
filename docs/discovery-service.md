@@ -12,7 +12,8 @@
 возвращает актуальную информацию о текущем количестве игроков на всех серверах проекта gta5rp.
 
 * **метод:** `GET`
-* **путь:** `http://localhost:8765/gta5rp/allOnline`
+* **путь:** `/gta5rp/allOnline`
+* **полный путь:** `http://localhost:8765/discovery/gta5rp/allOnline`
 * **тип ответа:** `Строка / JSON`
 * **успешный ответ (`200 OK`):**
   ```json
@@ -25,7 +26,8 @@
 запрашивает и парсит данные о суммарном онлайне серверов платформы samp.
 
 * **метод:** `GET`
-* **путь:** `http://localhost:8765/samp/allOnline`
+* **путь:** `/samp/allOnline`
+* **полный путь:** `http://localhost:8765/discovery/samp/allOnline`
 * **тип ответа:** `Строка / JSON`
 * **успешный ответ (`200 OK`):**
   ```json
@@ -38,7 +40,8 @@
 извлекает текущую статистику посещаемости серверов проекта arizona rp.
 
 * **метод:** `GET`
-* **путь:** `http://localhost:8765/arizona/allOnline`
+* **путь:** `/arizona/allOnline`
+* **полный путь:** `http://localhost:8765/discovery/arizona/allOnline`
 * **тип ответа:** `Строка / JSON`
 * **успешный ответ (`200 OK`):**
   ```json
@@ -51,7 +54,8 @@
 получает информацию об активности игроков на серверах radmir rp, обходя защитные механизмы разметки.
 
 * **метод:** `GET`
-* **путь:** `http://localhost:8765/radmirRP/allOnline`
+* **путь:** `/radmirRP/allOnline`
+* **полный путь:** `http://localhost:8765/discovery/radmirRP/allOnline`
 * **тип ответа:** `Строка / JSON`
 * **успешный ответ (`200 OK`):**
 ```json
@@ -64,7 +68,8 @@
 парсит и возвращает текущее количество активных пользователей на серверах amazing online.
 
 * **метод:** `GET`
-* **путь:** `http://localhost:8765/amazingOnline/allOnline`
+* **путь:** `/amazingOnline/allOnline`
+* **полный путь:** `http://localhost:8765/discovery/amazingOnline/allOnline`
 * **тип ответа:** `Строка / JSON`
 * **успешный ответ (`200 OK`):**
   ```json
