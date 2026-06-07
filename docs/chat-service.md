@@ -14,7 +14,7 @@
 
 * **метод:** `POST`
 * **путь:** `/connect`
-* **полный путь:** `/api/centrifugo/connect`
+* **полный путь:** `http://localhost:8765/api/centrifugo/connect`
 * **заголовки:**
   * `X-User-Id: <UUID>` (идентификатор пользователя, прошедший через api gateway)
 * **тип ответа:** `JSON`
@@ -32,7 +32,7 @@
 
 * **метод:** `POST`
 * **путь:** `/disconnect`
-* **полный путь:** `/api/centrifugo/disconnect`
+* **полный путь:** `http://localhost:8765/api/centrifugo/disconnect`
 * **тело запроса (body):**
 ```json
   {
@@ -52,7 +52,7 @@
 
 * **метод:** `GET`
 * **путь:** `/search`
-* **полный путь:** `/chats/search`
+* **полный путь:** `http://localhost:8765/chats/search`
 * **заголовки:**
   * `X-User-Id: <UUID>` (идентификатор текущего пользователя)
 * **параметры запроса (query params):**
@@ -75,7 +75,7 @@
 
 * **метод:** `POST`
 * **путь:** `/create/dialog`
-* **полный путь:** `/chats/create/dialog`
+* **полный путь:** `http://localhost:8765/chats/create/dialog`
 * **заголовки:**
   * `X-User-Id: <UUID>`
 * **тело запроса (body):** `CreateDialogRequest`
@@ -135,7 +135,7 @@
 
 * **метод:** `POST`
 * **путь:** `/add/participant`
-* **полный путь:** `/chats/add/participant`
+* **полный путь:** `http://localhost:8765/chats/add/participant`
 * **заголовки:**
   * `X-User-Id: <UUID>`
 * **тело запроса (body):** `AddUsersInChatRequest`
@@ -162,7 +162,7 @@
 
 * **метод:** `POST`
 * **путь:** `/add/admin`
-* **полный путь:** `/chats/add/admin`
+* **полный путь:** `http://localhost:8765/chats/add/admin`
 * **заголовки:**
   * `X-User-Id: <UUID>`
 * **тело запроса (body):** `AddAdminInChat`
@@ -188,7 +188,7 @@
 
 * **метод:** `GET`
 * **путь:** `/my/init`
-* **полный путь:** `/chats/my/init`
+* **полный путь:** `http://localhost:8765/chats/my/init`
 * **заголовки:**
   * `X-User-Id: <UUID>`
 * **тип ответа:** `JSON` (`List<ViewChatsResponse>`)
@@ -214,7 +214,7 @@
 
 * **метод:** `GET`
 * **путь:** `/get`
-* **полный путь:** `/chats/get`
+* **полный путь:** `http://localhost:8765/chats/get`
 * **заголовки:**
   * `X-User-Id: <UUID>`
 * **параметры запроса (query params):**
@@ -258,7 +258,7 @@
 
 * **метод:** `DELETE`
 * **путь:** `/{chatId}`
-* **полный путь:** `/chats/456e4567-e89b-12d3-a456-426614174111`
+* **полный путь:** `http://localhost:8765/chats/456e4567-e89b-12d3-a456-426614174111`
 * **заголовки:**
   * `X-User-Id: <UUID>`
 * **тип ответа:** `отсутствует (Void)`
@@ -280,7 +280,7 @@
 
 * **метод:** `PATCH`
 * **путь:** `/{chatId}/mute`
-* **полный путь:** `/chats/456e4567-e89b-12d3-a456-426614174111/mute`
+* **полный путь:** `http://localhost:8765/chats/456e4567-e89b-12d3-a456-426614174111/mute`
 * **параметры запроса (query params):**
   * `userId` — идентификатор пользователя.
 * **тип ответа:** `JSON`
@@ -304,7 +304,7 @@
 
 * **метод:** `POST`
 * **путь:** `/send`
-* **полный путь:** `/messages/send`
+* **полный путь:** `http://localhost:8765/messages/send`
 * **заголовки:**
   * `X-User-Id: <UUID>`
 * **тело запроса (body):** `SendMessageRequest`
@@ -338,7 +338,7 @@
 
 * **метод:** `POST`
 * **путь:** `/delete/for/me`
-* **полный путь:** `/messages/delete/for/me`
+* **полный путь:** `http://localhost:8765/messages/delete/for/me`
 * **заголовки:**
   * `X-User-Id: <UUID>`
 * **тело запроса (body):** `DeleteMsgRequest`
@@ -354,7 +354,7 @@
 
 * **метод:** `POST`
 * **путь:** `/delete/for/everyone`
-* **полный путь:** `/messages/delete/for/everyone`
+* **полный путь:** `http://localhost:8765/messages/delete/for/everyone`
 * **заголовки:**
   * `X-User-Id: <UUID>`
 * **тело запроса (body):** `DeleteMsgRequest`
