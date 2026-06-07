@@ -13,6 +13,7 @@
 
 * **метод:** `POST`
 * **путь:** `/login`
+* **Пример полного пути:** `http://localhost:8765/auth/login
 * **тело запроса (`LoginUserRequest`):**
   ```json
   {
@@ -26,6 +27,7 @@
 
 * **метод:** `POST`
 * **путь:** `/register`
+* **Пример полного пути:** `http://localhost:8765/auth/register
 * **тело запроса (`RegisterUserRequest`):**
   ```json
   {
@@ -40,6 +42,7 @@
 
 * **метод:** `POST`
 * **путь:** `/refresh`
+* **Пример полного пути:** `http://localhost:8765/auth/refresh
 * **заголовки / куки:**
   * `Cookie: refresh_token=<jwt_refresh_token>` (обязательный)
 * **эффект:** обновляет значения и время жизни кук `access_token` и `refresh_token`.
