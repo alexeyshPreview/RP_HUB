@@ -12,7 +12,7 @@
 
 * **Метод:** `GET`
 * **Путь:** `/userInfo`
-* **Пример полного пути:** `http://localhost:8765/account/userInfo
+* **Пример полного пути:** `http://localhost:8765/account/userInfo`
 * **Заголовки / Куки:**
   * `Cookie: access_token=<jwt_token>` (Обязательный)
 * **Тип ответа:** `UserProfileDto`
@@ -34,7 +34,7 @@
 
 * **метод:** `PUT`
 * **путь:** `/update`
-* **Пример полного пути:** `http://localhost:8765/account/update
+* **Пример полного пути:** `http://localhost:8765/account/update`
 * **заголовки:**
   * `X-User-Id: <UUID>` (подставляется автоматически api gateway)
 * **тело запроса (`UpdateDataUserRequest`):**
@@ -52,7 +52,7 @@
 
 * **метод:** `PUT`
 * **путь:** `/reset`
-* **Пример полного пути:** `http://localhost:8765/account/reset
+* **Пример полного пути:** `http://localhost:8765/account/reset`
 * **заголовки:**
   * `X-User-Id: <UUID>` (подставляется автоматически api gateway)
 * **тело запроса (`ResetPasswordRequest`):**
@@ -66,7 +66,7 @@
 
 * **метод:** `POST`
 * **путь:** `/logout`
-* **Пример полного пути:** `http://localhost:8765/account/logout
+* **Пример полного пути:** `http://localhost:8765/account/logout`
 * **заголовки / куки:**
   * `Cookie: refresh_token=<jwt_refresh_token>` (обязательный)
 * **эффект:** полностью удаляет куки `access_token` и `refresh_token` на стороне клиента (устанавливает `maxAge = 0`, `path = "/"` и флаг `HttpOnly`).
@@ -85,7 +85,7 @@
 
 * **метод:** `POST`
 * **путь:** `/delete/{id}`
-* **Пример полного пути:** `http://localhost:8765/account/delete/456e4567-e89b-12d3-a456-426614174111
+* **Пример полного пути:** `http://localhost:8765/account/delete/456e4567-e89b-12d3-a456-426614174111`
 * **параметры пути:**
   * `id` — уникальный идентификатор удаляемого пользователя (UUID / String).
 * **эффект:** полностью удаляет куки `access_token` и `refresh_token` на стороне клиента (устанавливает `maxAge = 0`, `path = "/"` и флаг `HttpOnly`).
