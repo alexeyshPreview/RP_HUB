@@ -56,6 +56,7 @@
 ### backend (микросервисы)
 * **core:** Java 21, Spring Boot 3.x
 * **web & security:** Spring Web, Spring Security, Keycloak (интеграция oauth2 / openid connect)
+* **API Documentation:** Swagger / OpenAPI 3 (интерактивная документация и песочница эндпоинтов)
 * **real-time & мессенджинг:** Centrifugo (события через веб-сокеты), Apache Kafka (асинхронное взаимодействие микросервисов)
 * **data & caching:** Spring Data JPA, Hibernate, PostgreSQL (основная бд), Redis (кэширование, сессии, хранение статусов)
 * **сборка и логирование:** Gradle / Maven, Lombok, Slf4j + Logback
@@ -69,6 +70,7 @@
 * **контейнеризация:** Docker, Docker Compose (локальное окружение и оркестрация сервисов)
 * **архитектура:** Microservices Architecture, API Gateway (шлюз для маршрутизации запросов)
 
+**Спецификация API:** Интерактивное тестирование всех эндпоинтов доступно через Swagger UI при локальном запуске сервисов по адресу: `http://localhost:8765/swagger-ui.html`
 
 ## Список всех микросервисов: подробнее в папке ./docs
 Проект построен на базе микросервисной архитектуры. Ниже представлен список всех сервисов и их краткое назначение:
