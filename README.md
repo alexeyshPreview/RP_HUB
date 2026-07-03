@@ -16,21 +16,23 @@
 <img width="1268" height="324" alt="951BF189-8F7E-4BE7-8F4A-E1DB8D5A1908_4_5005_c" src="https://github.com/user-attachments/assets/7b649197-857f-4d32-b9eb-fa6bfd40ea4a" />
 
 ## Окна авторизации
-<img width="473" height="670" alt="8F0D1985-22ED-4658-A54A-B2800F5C67D5" src="https://github.com/user-attachments/assets/8b73745d-0447-4937-9219-0a2c40c62e6f" />
-<img width="463" height="567" alt="28CFE91D-5D8B-41D2-9314-CFF71EB8146C" src="https://github.com/user-attachments/assets/bf9aa353-4430-485a-994f-4e03f1c42b28" />
+<p align="center">
+<img width="48%" height="48%" alt="8F0D1985-22ED-4658-A54A-B2800F5C67D5" src="https://github.com/user-attachments/assets/8b73745d-0447-4937-9219-0a2c40c62e6f" /> 
+<img width="48%" height="48%" alt="28CFE91D-5D8B-41D2-9314-CFF71EB8146C" src="https://github.com/user-attachments/assets/bf9aa353-4430-485a-994f-4e03f1c42b28" />
+</p>
 
 ## Удалить аккаунт
-<img width="753" height="631" alt="D62B83CF-7EEE-4A99-8606-DA96B0048B26" src="https://github.com/user-attachments/assets/b64c83ac-c7f9-41ae-b40f-fc5e90462e73" />
 <img width="993" height="581" alt="9CD21C11-4392-4A00-893F-B1FCD853F940" src="https://github.com/user-attachments/assets/5deaa049-d13c-440f-8044-3e2b11c8ebc2" />
-<img width="663" height="571" alt="8F5041A6-F6F4-44BB-B1E3-5541CC9E5E0E" src="https://github.com/user-attachments/assets/41230aaf-423c-452a-8412-7d48a8b74398" />
-
+<p align="center">
+<img width="49%" height="49%" alt="image" src="https://github.com/user-attachments/assets/1069cd79-7bf6-430e-9911-2f48052ff729" />
+<img width="49%" height="49%" alt="image" src="https://github.com/user-attachments/assets/f37a2bbf-a51e-4b56-9eae-dc2790b37df9" />
+</p>
 
 ## Личный кабинет
 <img width="1280" height="297" alt="BD38D601-EADF-4667-8F9B-B2FBA32A9725_4_5005_c" src="https://github.com/user-attachments/assets/39694fef-4a1b-441f-be4f-366257c0f5c0" />
 <img width="1281" height="1411" alt="03EE7F7E-F5DD-4A82-91E6-09F28E415235" src="https://github.com/user-attachments/assets/eeb135d6-c190-4136-88e6-915fa41fac1c" />
 
 ## Подтвердить почту
-
 <img width="589" height="386" alt="A2B739D9-9A9C-421C-8DEB-EA035C14FC79" src="https://github.com/user-attachments/assets/9121ab37-97de-44c3-8288-80d696a6e54b" />
 
 
